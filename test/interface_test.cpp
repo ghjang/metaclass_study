@@ -1,7 +1,6 @@
 #include "catch.hpp"
 
 #include <memory>
-#include <iostream>
 
 #include "interface.h"
 
