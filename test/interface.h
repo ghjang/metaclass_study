@@ -8,7 +8,8 @@
 
 $class interface
 {
-    constexpr {
+    constexpr
+    {
         compiler.require(
             $interface.variables().empty(),
             "interfaces may not contain data"
@@ -29,6 +30,7 @@ $class interface
             f.make_pure_virtual();
         }
     }
+
     virtual ~interface() noexcept { }
 };
 
