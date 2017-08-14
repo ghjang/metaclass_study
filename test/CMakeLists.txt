@@ -23,6 +23,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1z -Xclang -freflection")
 
 set(SOURCE_FILES
         interface_test.cpp
+        indexible_test.cpp
         main.cpp)
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
